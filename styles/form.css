@@ -50,7 +50,7 @@ input {
     align-items: center;
 
     font: var(--text-sm);
-    color: var(semantic-error);
+    color: var(--semantic-error);
 
     margin-top: .25rem;
   }
@@ -58,4 +58,10 @@ input {
   &:not(:focus):valid + .error {
     display: none;
   }
+}
+
+.actions-wrapper {
+  gap: 1rem;
+  display: flex;
+  margin-top: 3rem;
 }
